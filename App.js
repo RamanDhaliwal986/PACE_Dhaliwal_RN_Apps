@@ -7,28 +7,28 @@ export default function App() {
     
     <View style={styles.container}>
       <StatusBar style="dark" />
-      <Text style={styles.title}>Bio-Native App</Text>
+      <Text style={styles.title}>Assignment-2-Bio-Native App</Text>
       
       <Image source={profile} style={styles.profile} />
       <View style={styles.tableContainer}>
         <View style={styles.row}>
-          <Text style={styles.label}>Name:</Text>
+          <Text style={styles.label}> 👤 Name:</Text>
           <Text style={styles.value}>Ramandeep Kaur Dhaliwal</Text>
         </View>
         <View style={styles.row}>
-          <Text style={styles.label}>Email:</Text>
+          <Text style={styles.label}> 📧Email:</Text>
           <Text style={styles.value}>dramandeep202@gmail.com</Text>
         </View>
         <View style={styles.row}>
-          <Text style={styles.label}>Contact:</Text>
-          <Text style={styles.value}>+1 (234) 567-8901</Text>
+          <Text style={styles.label}> 📞 Contact:</Text>
+          <Text style={styles.value}>+1-647 972-7848</Text>
         </View>
         <View style={styles.row}>
-          <Text style={styles.label}>Skills:</Text>
+          <Text style={styles.label}> 🎯Skills:</Text>
           <Text style={styles.value}>C++, Python, React Native</Text>
         </View>
         <View style={styles.row}>
-          <Text style={styles.label}>Interests:</Text>
+          <Text style={styles.label}> 💼 Interests:</Text>
           <Text style={styles.value}>Mobile Development, Web Development</Text>
         </View>
       </View>
